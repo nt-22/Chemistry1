@@ -1,0 +1,263 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+h2,h4,h5{
+    font-weight: 700;
+    font-size: 48px;
+}
+h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+a, div{
+    line-height: 1.5em;
+}
+.title{
+    margin: 50px 0;
+}
+.title__title{
+    color: #424F35;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.title__text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 650px;
+    margin: 0 auto;
+}
+section{
+    padding-top: 100px;
+}
+.btn1{
+    font-size: 14pt;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #7B8B66;
+    font-weight: 700;
+    width: 180px;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 0;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+.btn1:hover{
+    background-color: #424F35;
+    transition: all 0.3s ease;
+}
+
+/*modal*/
+.modal__form__input{
+    font-size: 14pt;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 5px;
+    width: 460px;
+    padding: 10px 20px;
+    outline: none;
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+
+/*header*/
+
+nav{
+    background-color: #7B8B66;
+}
+.header img{
+    margin: 10px 0;
+    width: 35px;
+}
+.menu{
+    margin: 14px 0;   
+}
+.menu__item{
+    margin: 0 20px;
+}
+.menu__item a{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+.menu__item a:hover{
+    color: #424F35;
+    transition: all 0.3s ease;
+}
+
+/*1 container*/
+
+.intro{
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 48px;
+    background-color: #7B8B66;
+    color: white;
+    height: 500px;
+}
+/*2 container*/
+.bio{
+    margin-top: 50px;
+}
+.bio__title{
+    color: #424F35;
+}
+.bio__text{
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.teacher{    
+    display: block;
+    margin: 0 auto;
+    height: 590px;
+    width: 555px;
+}
+
+/*3 container*/
+
+.card{
+    width: 34rem;
+    height: 61rem;
+    margin: 0 auto;
+}
+
+/*4 container*/
+
+/*.slider{
+    margin: 0 auto;
+    padding: 0;
+    width: 285px;
+    height: 510px;
+    border: 30px solid transparent; ;
+    border-image-source: url(img/phone.png);
+    border-image-repeat: round;
+    border-image-slice: 125 fill;
+}*/
+.carousel{
+    margin: 0 auto;
+    padding: 0;
+    width: 285px;
+    height: 510px;
+}
+
+/*forma*/
+
+.form{
+    width: 580px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.form__input{
+    font-size: 14pt;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 5px;
+    width: 580px;
+    padding: 10px 20px;
+    outline: none;
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+/*footer*/
+
+footer{
+    background-color: #7B8B66;
+    padding: 50px 0 94px;
+}
+.icons{
+    margin: 0 auto;
+}
+.icons__item a{
+    color: white;
+    text-align: center;
+    margin: 0 12px;
+    font-size: 18pt;
+}
+.icons__item a:hover{
+    color: #424F35;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px){
+    .menu__item a{
+        font-size: 12px;
+
+    }
+    .teacher{
+        height: 490px;
+        width: 455px;
+        margin: 60px auto;
+    }
+    .card{
+        width: 24rem;
+        height: 51rem;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px){
+    .header img{   
+        display: block;
+        margin: 10px auto;
+        width: 30px;
+    }
+    h2,h4,h5{
+        font-size: 28px;
+    }
+    .intro{
+        height: 400px;
+    }
+    .card{
+        width: 20rem;
+        height: 40rem;
+    }
+}
+@media screen and (max-width: 430px){
+    .menu__item a{
+        font-size: 7px;
+    }
+    .teacher{
+        height: 330px;
+        width: 295px;
+        margin: 60px auto;
+    }
+    h2,h4,h5{
+        font-size: 18px;
+    }
+    .card{
+        width: 9rem;
+        height: 23rem;
+    }
+    .title__title{
+        width: 200px;
+    }
+    .title__text{
+        font-size: 14px;
+        width: 250px;
+    }
+    .btn1{
+        font-size: 10pt;
+        width: 80px;
+        padding: 6px 0;
+    }
+    .form{
+        width: 280px;
+    }
+    .form__input{
+        font-size: 10pt;
+        width: 280px;
+        padding: 8px 16px;
+    }   
+    .icons__item a{
+        font-size: 8pt;
+    }
+}
