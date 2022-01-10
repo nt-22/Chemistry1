@@ -55,17 +55,17 @@ section{
 }
 
 /*modal*/
+
 .modal__form__input{
     font-size: 14pt;
     font-family: 'PT Sans', sans-serif;
     border-radius: 5px;
-    width: 460px;
+    width: 100%;
     padding: 10px 20px;
     outline: none;
-    margin: 5px;
+    margin: 5px auto;
     color: rgba(0, 0, 0, 0.452);
 }
-
 
 /*header*/
 
@@ -97,13 +97,14 @@ nav{
 
 .intro{
     text-align: center;
-    padding-bottom: 100px;
+    padding: 130px 0;
     font-size: 48px;
     background-color: #7B8B66;
     color: white;
-    height: 500px;
 }
+
 /*2 container*/
+
 .bio{
     margin-top: 50px;
 }
@@ -214,7 +215,7 @@ footer{
         font-size: 28px;
     }
     .intro{
-        height: 400px;
+        padding: 120px 0 30px;
     }
     .card{
         width: 20rem;
@@ -222,20 +223,8 @@ footer{
     }
 }
 @media screen and (max-width: 430px){
-    .menu__item a{
-        font-size: 7px;
-    }
-    .teacher{
-        height: 330px;
-        width: 295px;
-        margin: 60px auto;
-    }
     h2,h4,h5{
         font-size: 18px;
-    }
-    .card{
-        width: 9rem;
-        height: 23rem;
     }
     .title__title{
         width: 200px;
@@ -244,10 +233,31 @@ footer{
         font-size: 14px;
         width: 250px;
     }
+    section{
+        padding-top: 60px;
+    }
     .btn1{
         font-size: 10pt;
         width: 80px;
         padding: 6px 0;
+    }
+    .menu__item a{
+        font-size: 6px;
+    }
+    .intro{
+        padding: 130px 0 80px;
+    }
+    .bio__text{
+        font-size: 14px;
+    }
+    .teacher{
+        height: 330px;
+        width: 295px;
+        margin: 60px auto;
+    }
+    .card{
+        width: 9rem;
+        height: 23rem;
     }
     .form{
         width: 280px;
